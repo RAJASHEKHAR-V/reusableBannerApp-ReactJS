@@ -1,0 +1,123 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+
+.heading {
+  font-family: 'Roboto';
+  color: #326a9d;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: normal;
+}
+
+.btn {
+  min-width: 60px;
+  min-height: 25px;
+  color: #326a9d;
+  font-weight: bold;
+  border: 1px solid #326a9d;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+@media (max-width: 767px) {
+  .card-1 {
+    width: 60%;
+    height: 30%;
+    border: 1px solid #cbced2;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card-2 {
+    width: 60%;
+    height: 30%;
+    padding: 20px;
+    border: 1px solid #cbced2;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .card-3 {
+    width: 60%;
+    height: 30%;
+    border: 1px solid #cbced2;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+  .btn {
+    max-width: 200px;
+    max-height: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-1 {
+    width: 70%;
+    height: 30%;
+    border: 1px solid #cbced2;
+    padding-left: 20px;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .card-2 {
+    width: 70%;
+    height: 30%;
+    padding-right: 20px;
+    border: 1px solid #cbced2;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .card-3 {
+    width: 70%;
+    height: 30%;
+    border: 3px solid #cbced2;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .heading {
+    font-size: 25px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+  .btn {
+    max-width: 200px;
+    max-height: 50px;
+  }
+}
